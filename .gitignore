@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Angular specific
+.angular/cache
+.angular/*/build
+
+# Compiled output
+dist/
+out-tsc/
+build/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Compiled Typescript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# IDE/Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ASP.NET Core
+bin/
+obj/
+*.db
+
+# GitHub
+.github/
+
+# Configuración ambiental
+.env
+.env.*.local
