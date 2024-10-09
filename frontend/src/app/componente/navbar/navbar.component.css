@@ -1,0 +1,31 @@
+.header-nav {
+  background-color: blue; /* Fondo azul para el nav */
+  padding: 10px; /* Espaciado interno */
+}
+
+.header-nav ul {
+  list-style-type: none; /* Sin viñetas */
+  margin: 0; /* Sin márgenes */
+  padding: 0; /* Sin padding */
+  display: flex; /* Flexbox para la lista horizontal */
+}
+
+.header-nav ul li {
+  margin: 0 15px; /* Espaciado entre los enlaces */
+}
+
+.header-nav ul li a {
+  color: white; /* Color del texto por defecto */
+  text-decoration: none; /* Sin subrayado */
+  padding: 10px 15px; /* Espaciado interno para los enlaces */
+  transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+.header-nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Fondo claro al pasar el mouse */
+}
+
+.header-nav ul li a.active {
+  background-color: rgb(128, 128, 128); /* Fondo gris para el enlace activo */
+  font-weight: bold; /* Negrita para el enlace activo */
+}

@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    font-family: Arial, sans-serif; /* Establece una fuente base */
+  }
+  
